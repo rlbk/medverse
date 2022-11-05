@@ -1,0 +1,7 @@
+img {
+  transform: scale(0.7);
+  position: relative;
+  left: -310px;
+  top: -168px;
+  z-index: -999;
+}

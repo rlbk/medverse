@@ -1,0 +1,24 @@
+.sectionTitle {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.sectionTitle-text {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  border-bottom: 4px solid var(--green);
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+/* .sectionTitle-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: var(--green);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+} */

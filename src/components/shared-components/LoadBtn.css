@@ -1,0 +1,19 @@
+.load-btn {
+  text-align: center;
+}
+
+.load-btn button {
+  color: var(--green);
+  background-color: #fff;
+  font-size: 0.8rem;
+  margin-left: 40px;
+  border-radius: 20px;
+  padding: 10px 16px;
+  border: 2px solid var(--green);
+  cursor: pointer;
+}
+
+.load-btn button:hover {
+  font-weight: bold;
+  box-shadow: 1px 1px 3px var(--green);
+}

@@ -1,0 +1,13 @@
+.focusTitle {
+  font-size: 34px;
+  letter-spacing: -1px;
+  /* line-height: 1%; */
+}
+
+.slider-text {
+  width: 40%;
+  word-wrap: break-word;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}

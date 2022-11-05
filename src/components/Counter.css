@@ -1,0 +1,42 @@
+.counter-block {
+  height: 332px;
+  background-image: linear-gradient(
+      rgba(67, 131, 142, 0.5),
+      rgba(67, 131, 142, 0.6)
+    ),
+    url("./images/blockchain-exch.png");
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-block > img {
+  height: 100%;
+  width: 100vw;
+  transform: scale(1.1);
+}
+
+.counterItem-block {
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+.counter-image {
+  transform: scale(0.6);
+}
+
+.counter-number {
+  color: var(--green);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.counter-number,
+.counter-textDes {
+  margin: 0;
+}
+
+.counter-textDes {
+  color: #fff;
+  font-size: 1rem;
+}

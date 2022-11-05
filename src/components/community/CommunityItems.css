@@ -1,0 +1,30 @@
+.communityItems-block {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.community-item {
+  height: 356px;
+  width: 332px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 12px var(--shadowBlk);
+  text-align: center;
+  background-color: var(--itemBg);
+}
+
+.image-container {
+  width: 80%;
+  height: 45%;
+  margin: 27px auto;
+
+  /* background: url("../images/hospital-free-c.png"); */
+  /* background-size: contain; */
+  overflow: hidden;
+}
+
+.image-container img {
+  transform: scale(0.7);
+  margin-top: -12%;
+  margin-left: -20%;
+}

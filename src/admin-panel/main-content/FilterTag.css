@@ -1,0 +1,12 @@
+.regularStyle {
+  display: inline-block;
+  font-size: 12px;
+
+  padding: 5px;
+  border: 1px solid var(--green);
+  cursor: pointer;
+}
+
+.activeStyle {
+  background-color: #fff;
+}

@@ -1,0 +1,22 @@
+.reports-container {
+  width: 45%;
+  background-color: rgba(211, 211, 211, 0.4);
+  border: 1px solid rgba(211, 211, 211, 0.4);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.reports-mainTitle {
+  border-bottom: 2px solid var(--green);
+  padding-left: 1rem;
+}
+
+.filters-container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-loadMoreBtn {
+  margin: 32px auto;
+}

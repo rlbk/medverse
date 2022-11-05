@@ -1,0 +1,22 @@
+.contactLists {
+  margin-right: 10vw;
+}
+
+.contact-item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  margin-right: 1rem;
+}
+
+.contact-detail {
+  font-size: 12px;
+}
+
+.contact-detail p {
+  margin: 0;
+}

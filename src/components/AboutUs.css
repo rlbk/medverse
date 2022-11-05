@@ -1,0 +1,64 @@
+.aboutUs-block {
+  height: 732px;
+  /* width: 100vw; */
+  background-image: url("./images/blockchain-network.2.png");
+  /* overflow: hidden; */
+  /* margin-bottom: -338px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* padding-top: 100px; */
+}
+
+/* border: 1px solid red; 
+.aboutUs-block > img {
+  transform: scale(0.9);
+  position: relative;
+  left: -310px;
+  top: -168px;
+  z-index: -999; 
+}
+
+*/
+.about-sectionTitle {
+  /* position: abosolute; */
+  /* top: 0px; */
+  /* margin: 100px auto; */
+  /* margin-top: 100px; */
+  padding-top: 132px;
+  text-align: center;
+  color: var(--green);
+}
+
+.aboutSectionTitle-text {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  border-bottom: 4px solid #fff;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.aboutSectionContents {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.aboutsecContent-col1 {
+  padding: 10px;
+}
+
+.aboutSecContent-text {
+  margin-bottom: 32px;
+}
+
+.aboutSecContent-text p {
+  font-size: 12px;
+}
+
+.aboutsecContent-col2,
+.aboutsecContent-col1 {
+  width: 40vw;
+}

@@ -1,0 +1,35 @@
+.wwp-block {
+  display: flex;
+  height: 1000px;
+}
+
+.side-image {
+  /* border: 1px solid green; */
+  overflow: hidden;
+}
+
+.side-image > img {
+  transform: scale(0.8);
+  /* height: 100%; */
+  position: relative;
+  top: -134px;
+  left: -270px;
+}
+
+.wwp-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.WwpItem-block {
+  width: 300px;
+  /* height: 280px; */
+  border-top: 2px solid #062531;
+  margin: 2rem auto;
+}
+
+.wwp-icon {
+  text-align: center;
+  margin: 1.5rem auto;
+}

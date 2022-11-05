@@ -1,0 +1,60 @@
+.nav-bar {
+  height: 80px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navBar-items {
+  display: flex;
+  align-items: center;
+}
+
+.navBar-item {
+  margin-right: 1.5rem;
+  align-items: center;
+}
+
+.profile {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.underline a,
+.profile-name a {
+  text-decoration: none;
+  color: #000;
+  transition: text-shadow 0.5s ease-in;
+}
+
+.underline a:hover {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.profile-name a:hover {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.profile-image {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.profile-image img {
+  height: 100%;
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.profile-name {
+  /* margin-top: -10px; */
+  margin: 0;
+}

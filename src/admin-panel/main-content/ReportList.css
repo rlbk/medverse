@@ -1,0 +1,37 @@
+.reportList {
+  background-color: rgba(211, 211, 211, 0.4);
+  font-size: 12px;
+}
+
+.report-date {
+  padding: 1rem;
+}
+
+.details-report {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.more-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blood-details {
+  display: flex;
+  align-items: center;
+}
+
+.bloodReport-pdf {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.more-btn {
+  display: flex;
+}

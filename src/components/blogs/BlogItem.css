@@ -1,0 +1,39 @@
+.blogItem-container {
+  width: 382px;
+}
+
+.blogItem-image {
+  width: 282px;
+  margin-bottom: 10px;
+}
+
+.blogItem-image > img {
+  width: 100%;
+}
+
+.blogItem-subtitle {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.blogItem--icon {
+  display: flex;
+  align-items: center;
+}
+.icon--symbol {
+  color: var(--green);
+}
+
+.icon--des {
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: -7px;
+}
+
+.readMore {
+  display: inline-block;
+  margin-top: 0;
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}

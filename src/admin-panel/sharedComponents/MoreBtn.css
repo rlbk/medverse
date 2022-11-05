@@ -1,0 +1,23 @@
+.button-more {
+  text-align: center;
+}
+
+.btn-more {
+  color: var(--green);
+  background-color: #fff;
+  font-size: 0.8rem;
+  border-radius: 1.2rem;
+  margin: 0 10px;
+  border: 1px solid var(--green);
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  font-weight: bold;
+  box-shadow: 1px 1px 5px var(--green);
+}
+
+.btn-shade {
+  background-color: var(--green);
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  --green: #00d6a3;
+  --itemBg: #f8f8f8;
+  --shadowBlk: rgba(0, 0, 0, 0.3);
+  --footerCol: rgba(6, 37, 49, 0.9);
+  --crCol: #062531;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.highlight-text {
+  color: var(--green);
+}

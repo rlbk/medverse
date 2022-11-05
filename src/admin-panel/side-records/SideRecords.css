@@ -1,0 +1,21 @@
+.sideRecords {
+  width: 25vw;
+  /* height: 100vh; */
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.recordsTitle {
+  height: 5rem;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.recordsTitle a {
+  text-decoration: none;
+  color: #000;
+}
